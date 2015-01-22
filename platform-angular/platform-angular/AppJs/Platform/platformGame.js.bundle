@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bundle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://vswebessentials.com/schemas/v1/bundle.xsd">
+	<settings>
+		<!--Determines if the bundle file should be automatically optimized after creation/update.-->
+		<minify>true</minify>
+		<!--Determine whether to generate/re-generate this bundle on building the solution.-->
+		<runOnBuild>false</runOnBuild>
+		<!--Specifies a custom subfolder to save files to. By default, compiled output will be placed in the same folder and nested under the original file.-->
+		<outputDirectory />
+	</settings>
+	<!--The order of the <file> elements determines the order of the files in the bundle.-->
+	<files>
+		<file>/AppJs/Platform/_modules.js</file>
+		<file>/AppJs/Platform/directives/playerDirective.js</file>
+		<file>/AppJs/Platform/directives/floorDirective.js</file>
+		<file>/AppJs/Platform/directives/screenDirective.js</file>
+		<file>/AppJs/Platform/directives/platformDirective.js</file>
+		<file>/AppJs/Platform/directives/moneyDirective.js</file>
+		<file>/AppJs/Platform/directives/scoreDirective.js</file>
+		<file>/AppJs/Platform/directives/startDirective.js</file>
+		<file>/AppJs/Platform/services/screenService.js</file>
+		<file>/AppJs/Platform/services/levelObjects.js</file>
+		<file>/AppJs/Platform/services/physicService.js</file>
+		<file>/AppJs/Platform/services/collideService.js</file>
+		<file>/AppJs/Platform/services/scoreService.js</file>
+		<file>/AppJs/Platform/services/platformFactory.js</file>
+		<file>/AppJs/Platform/services/playerFactory.js</file>
+		<file>/AppJs/Platform/services/moneyFactory.js</file>
+		<file>/AppJs/Platform/controllers/mainController.js</file>
+		<file>/AppJs/Platform/run.js</file>
+	</files>
+</bundle>

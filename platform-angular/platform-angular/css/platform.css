@@ -1,0 +1,67 @@
+@font-face {
+  font-family: score;
+  src: url(/fonts/PIXELADE.TTF); }
+body .start {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: #ccc;
+  z-index: 3; }
+  body .start .intro {
+    margin: 5% auto;
+    width: 50%;
+    text-align: center; }
+  body .start button {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 40px;
+    margin-top: -20px;
+    margin-left: -50px; }
+body .score {
+  font-family: score;
+  font-size: 4rem;
+  padding: 0.2rem 2rem;
+  position: relative;
+  text-align: left;
+  z-index: 1; }
+body .floor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: #6d5d03; }
+body .screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #e0fefe; }
+body .player {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  position: absolute;
+  background: #333;
+  border: 1px solid #ff6a00; }
+body .platform {
+  position: absolute;
+  background: #333;
+  z-index: 2; }
+body .money {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px 0 #333;
+  z-index: 2;
+  background: #ffd800; }
+
+/*# sourceMappingURL=platform.css.map */
